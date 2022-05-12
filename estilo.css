@@ -1,9 +1,11 @@
 .container {
     position: relative;
   }
+ 
   body {
     b-ackground-color:#111;
     font-size: 16px;
+    margin: 5%;
 }
 
   .header {
@@ -100,6 +102,54 @@ nav#principal a:hover {
     
   }
   .imgEstudio{
-      width: 350px;
-      height:150px ;
+      margin-left: 2%;
+      margin-bottom: 5%;
   }
+  .imgData{
+      width: 100px;
+      height: 50px;
+  }
+
+  .img2019T1{
+    display:flex;
+    width: 300px;
+    height: 230px; 
+    margin-left: 10px;
+  }
+
+  .img2019T2{
+ 
+    justify-content: space-around;
+    width: 230px;
+    height: 230px; 
+    margin-left: 10px;
+  }
+  .img2019T3{
+ 
+    display: flex;
+    width: 190px;
+    height: 230px; 
+    margin-left: 10px;
+  }
+  .texto{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em
+}
+.imagemEsq{
+    position: absolute;
+    width: 190px;
+    height: 230px;
+    left: 180px;
+    margin-top: 10px;
+    
+}
+.imagemDir{
+    position: absolute;
+    width: 190px;
+    height: 230px;
+    right: 180px;
+    margin-top: 10px;
+    
+}
